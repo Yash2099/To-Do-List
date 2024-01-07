@@ -1,0 +1,23 @@
+:root{
+    --dark:#374151;
+    --darker:#1f2937;
+    --darkest:#111827;
+    --gray:#6b7280;
+    --light:#EEE;
+    --pink:#ec4899;
+    --purple:#8b5cf6;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira sans',sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: var(--dark);
+    color: #FFF;
+}
