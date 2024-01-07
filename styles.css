@@ -21,3 +21,66 @@ body{
     background: var(--dark);
     color: #FFF;
 }
+header{
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--gray);
+    margin-bottom: 1rem;
+}
+#new-task-form{
+    display: flex;
+}
+input,button{
+     appearance: none;
+     border: none;
+     outline: none;
+     background: none;
+}
+#new-task-input{
+    background: var(--darker);
+    flex: 1 1 0%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--light);
+    font-size: 1.25rem;
+}
+#new-task-input{
+    color: var(--gray);
+}
+#new-task-submit{
+    color: var(--pink);
+
+}
+#new-task-submit{
+    color: var(--pink);
+    background-image: linear-gradient(to right , var(--pink),var(--purple));
+    font-size: 1.25rem;
+    font-weight: 700;
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#new-task-submit:hover{
+    opacity: 0.8;
+}
+#new-task-submit:before{
+         opacity: 0.6;
+}
+
+main{
+    flex: 1 1 0%;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
